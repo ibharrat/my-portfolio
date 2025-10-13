@@ -19,7 +19,15 @@ export async function POST(request) {
             body: JSON.stringify({
                 model: "gpt-3.5-turbo",
                 messages: [
-                    { role: "system", content: "You are a assistant." }, 
+                    { role: "system", content: `You are an assistant that answers questions specifically about Ian Bharrat.
+                        Background info about Ian: 
+                        - Certifications: CompTIA ITF+, AWS Certified Cloud Practitioner .
+                        - Programming Languages: Python, JavaScript, Node.js, HTML, CSS, Java.
+                        - Interests: DevOps, SysOps, Information Technology, Cloud Infrastructure, Networking.
+                        - Education: Currently pursuing a Bachelors in IT at Kean University, Obtained A.A.S in Computer Science at Brookdale Community College.
+                        - Current experience: Built out a basic AWS Infrastructure in CloudFormation for a web application. Created a browser sidescrolling arcade game built with Phaser JS.
+
+                        Use this info to answer any questions about Ian accurately.` }, 
                     { role: "user", content: message }, 
                 ],
             }),

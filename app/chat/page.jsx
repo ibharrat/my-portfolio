@@ -30,7 +30,7 @@ export default function ChatbotPage() {
 
     return (
         <main className="chat-container">
-            <h1>AI Chatbot</h1>
+            <h1>AI Chatbot (Ask About Ian)</h1>
 
             <div className="chat-window">
                 {messages.map((msg, i) => (
