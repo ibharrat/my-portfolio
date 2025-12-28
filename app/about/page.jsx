@@ -11,7 +11,7 @@ export default function AboutPage() {
                 </p>
 
                 <Image
-                    src="/Resume.jpg"
+                    src="/resume.jpg"
                     alt="Resume"
                     className="image"
                     width={400}
@@ -20,7 +20,7 @@ export default function AboutPage() {
 
                 <h2>Languages</h2>
                 <p>
-                    Python, Javascript, HTML, CSS, Java
+                    Python, Javascript, Java, Vite, React, Next.js, SQL, MySQL, MongoDB
                 </p>
 
                 <h2>Certifications</h2>
