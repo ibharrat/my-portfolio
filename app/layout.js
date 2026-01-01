@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <footer>
-          <a href="https://www.linkedin.com/in/ian-bharrat-66aa4a37b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ian-bharrat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/ibharrat" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="mailto:ian.bharrat@gmail.com">Contact Me</a>
         </footer>
