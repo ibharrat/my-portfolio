@@ -10,9 +10,14 @@ export default function AboutPage() {
                 IT related, including Networking, DevOps, and Cloud Infrastructure.
             </p>
 
-            <h2>Languages</h2>
+            <h2>Technologies</h2>
             <p>
-                Python, Javascript, Java, Vite, React, Next.js, SQL, MySQL, MongoDB
+                Python, Javascript, Java, Vite, React, Next.js, SQL, MySQL, MongoDB 
+            </p>
+
+            <h2>Cloud Technologies</h2>
+            <p>
+                AWS EC2, AWS CloudFormation, AWS S3, AWS CloudFront, etc.
             </p>
 
             <h2>Certifications</h2>
